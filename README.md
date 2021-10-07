@@ -32,7 +32,7 @@ const Test = () => {
 
 ## Preview
 
-![popupDrawer](https://github.com/weichaozhan/react-native-popup-drawer/blob/master/drawer.jpg)
+![popupDrawer](https://raw.githubusercontent.com/weichaozhan/react-native-popup-drawer/master/drawer.jpg)
 
 ## API
 
@@ -51,3 +51,7 @@ const Test = () => {
 |-----|--------|----|
 |setThreeHeight | (firstHeight: number, secondHeight: number, thirdHeight: number) => {}| Set the three heights of the drawer. |
 |popToPosition | (position: 0 &#124; 1 &#124; 2) => any | Manually set the position of the drawer (0 -> top, 1 -> middle, 2-> bottom). |
+
+## License
+
+React is [MIT licensed](./LICENSE).
