@@ -15,7 +15,7 @@ const App = () => {
   const backgroundStyle = {
     height: '100%',
     width: '100%',
-    backgroundColor: 'red',
+    backgroundColor: 'skyblue',
   };
 
   return (

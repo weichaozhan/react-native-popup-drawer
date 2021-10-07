@@ -1,6 +1,6 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
-import {Animated, Easing, View} from 'react-native';
+import {Animated, Easing, View, ViewPropTypes} from 'react-native';
 
 import styles from './index.style';
 
@@ -287,9 +287,9 @@ PopupView.propTypes = {
   // 是否跳过中间段（即两段跳转）
   skipMid: PropTypes.bool,
   // 顶部的自定义工具
-  headTools: PropTypes.bool,
+  headTools: PropTypes.any,
   children: PropTypes.any,
-  style: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),
+  style: ViewPropTypes.style,
   // 每段切换回调
   onDidScrollToPosition: PropTypes.func,
 };
