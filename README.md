@@ -32,7 +32,7 @@ const Test = () => {
 
 ## Preview
 
-![popupDrawer](./drawer.jpg)
+![popupDrawer](https://github.com/weichaozhan/react-native-popup-drawer/blob/master/drawer.jpg)
 
 ## API
 
