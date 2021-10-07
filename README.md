@@ -30,9 +30,13 @@ const Test = () => {
 };
 ```
 
+## Preview
+
+![popupDrawer](./drawer.jpg)
+
 ## API
 
-### props
+### Props
 
 |name|type|default| description|
 |-----|---|--------|----|
@@ -41,7 +45,7 @@ const Test = () => {
 |style | ViewPropTypes.style | - | Drawer styles. |
 |onDidScrollToPosition | (swithState) => {} | 'post' | Each segment switch callback (swithState: 0 -> top, 1 -> middlw, 2 -> bottom). |
 
-### methods
+### Methods
 
 |name|type| description|
 |-----|--------|----|

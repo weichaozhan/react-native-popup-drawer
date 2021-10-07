@@ -1,7 +1,22 @@
 {
   "name": "react-native-popup-drawer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "popup",
+    "drawer",
+    "draggable",
+    "drag"
+  ],
+  "bugs": {
+    "url": "https://github.com/weichaozhan/react-native-popup-drawer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weichaozhan/react-native-popup-drawer.git"
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
